@@ -46,24 +46,13 @@ body::-webkit-scrollbar-track {
 }
 
 .section {
-  padding: 60px 0;
+  padding: 100px 0;
 }
 
 .container {
   margin: 0 auto;
   width: 100%;
-  padding: 0 16px;
 
-  @media (360px <= width) {
-    max-width: 360px;
-  }
-
-  @media (768px<=width) {
-    max-width: 768px;
-  }
-
-  @media (1280px<=width) {
-    max-width: 1280px;
-    padding: 0 24px;
-  }
+  max-width: 1280px;
+  padding: 0 20px;
 }
